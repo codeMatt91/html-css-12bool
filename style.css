@@ -3,10 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.row{
+   text-align: center;
+   line-height: 50px;
+   background-color: dodgerblue;
+   
+}
 
 .row > [class^="col"] {
   color: white;
-  background-color: dodgerblue;
   height: 50px;
   border: 1px solid white;
+}
+
+.nested {
+   background-color: forestgreen;
+   color: white;
+   border: 1px solid transparent;
 }
