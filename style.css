@@ -15,12 +15,13 @@
 
 .row > [class^="col"] {
   color: white;
-  height: 50px;
+  min-height: 50px;
   border: 1px solid white;
-  
 }
-[class^="col"]{
-   background-color: dodgerblue;
+
+[class^="col"] {
+  background-color: dodgerblue;
+  min-height: 50px;
 }
 
 [class^="nested"] {
@@ -30,7 +31,6 @@
 
 .row.nested {
   padding: 10px 20px;
-  background-color: dodgerblue;
 }
 .nested-1 {
   background-color: green;
