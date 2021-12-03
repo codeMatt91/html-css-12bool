@@ -5,7 +5,7 @@
 }
 
 .container {
-  margin: 20px auto;
+  margin: 20px auto 20px;
 }
 
 .row {
@@ -17,7 +17,10 @@
   color: white;
   height: 50px;
   border: 1px solid white;
-  background-color: dodgerblue;
+  
+}
+[class^="col"]{
+   background-color: dodgerblue;
 }
 
 [class^="nested"] {
@@ -25,7 +28,10 @@
   color: white;
 }
 
-.nested {
-  height: auto;
+.row.nested {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+}
+.nested-1 {
   background-color: green;
 }
