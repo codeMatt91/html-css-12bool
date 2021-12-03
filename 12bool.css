@@ -22,8 +22,6 @@
   flex-wrap: wrap;
 }
 
-
-
 /*********** COL RULES  **********/
 [class^="col"] {
   flex-grow: 0;
@@ -84,8 +82,6 @@
   max-width: calc(100%);
 }
 
-
-
 /******* OFFSET  *********/
 
 .offset-1 {
@@ -124,4 +120,33 @@
 }
 .offset-11 {
   margin-left: calc(100% / 12 * 11);
+}
+
+/********** ALLINEAMENTO  *********/
+
+.content-start {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.contente-center {
+  justify-content: center;
+  text-align: center;
+}
+
+.content-end {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
 }

@@ -5,13 +5,12 @@
 }
 
 .container {
-   margin: 20px auto;
+  margin: 20px auto;
 }
 
-.row{
-   text-align: center;
-   line-height: 50px;
-   
+.row {
+  text-align: center;
+  line-height: 50px;
 }
 
 .row > [class^="col"] {
@@ -22,7 +21,11 @@
 }
 
 [class^="nested"] {
-   background-color: forestgreen;
-   color: white;
-   
+  background-color: forestgreen;
+  color: white;
+}
+
+.nested {
+  height: auto;
+  background-color: green;
 }
