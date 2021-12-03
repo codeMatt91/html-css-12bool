@@ -150,3 +150,13 @@
 .align-end {
   align-items: flex-end;
 }
+
+.space-between {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.space-around {
+  justify-content: space-around;
+  text-align: center;
+}
