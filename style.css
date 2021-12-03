@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+   margin: 20px auto;
+}
+
 .row{
    text-align: center;
    line-height: 50px;
-   background-color: dodgerblue;
    
 }
 
@@ -14,10 +18,11 @@
   color: white;
   height: 50px;
   border: 1px solid white;
+  background-color: dodgerblue;
 }
 
-.nested {
+[class^="nested"] {
    background-color: forestgreen;
    color: white;
-   border: 1px solid transparent;
+   
 }
